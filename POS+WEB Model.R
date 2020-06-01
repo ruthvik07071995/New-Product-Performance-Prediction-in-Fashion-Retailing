@@ -5,7 +5,7 @@ library(RMariaDB)
 # Connect to a MariaDB version of a MySQL database
 con <- dbConnect(RMariaDB::MariaDB(), host="datamine.rcac.purdue.edu", port=3306
                  , dbname="***********"
-                 , user="vb_user", password="Fashion2020")
+                 , user="", password="")
 # list of db tables
 dbListTables(con)
 
